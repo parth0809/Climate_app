@@ -5,7 +5,7 @@ import 'package:climate_app/services/location.dart';
 
 class WeatherModel {
   double lat=0,lon=0;
-  String APIKEY = "a625a6caec05760d9eac3485ca541d27";
+  String APIKEY = "Enter Your own API key";
   Future<dynamic> getLocationWeather() async
   {
     Location location = Location();
